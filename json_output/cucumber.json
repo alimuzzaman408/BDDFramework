@@ -1,0 +1,508 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4691578900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step.setup()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "User credential successfull",
+        "description": "",
+        "id": "login;user-credential-successfull",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 169097600,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User Open the beowser",
+            "match": {
+              "location": "Step.user_Open_the_beowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 7161970800,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter Url \"http://demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.guru99.com/V4/",
+                  "offset": 16
+                }
+              ],
+              "location": "Step.user_enter_Url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 268872100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "enter user name \"mngr264380\" and password \"qUrUzEv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr264380",
+                  "offset": 17
+                },
+                {
+                  "val": "qUrUzEv",
+                  "offset": 43
+                }
+              ],
+              "location": "Step.enter_user_name_and_password(String,String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 689587100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click login button",
+            "match": {
+              "location": "Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 51377200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "validate  Tilte of the page \"Guru99 Bank Manager HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guru99 Bank Manager HomePage",
+                  "offset": 29
+                }
+              ],
+              "location": "Step.validate_Tilte_of_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 787797300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "close browser",
+            "match": {
+              "location": "Step.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 2,
+            "name": "@SmokeTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3379993800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step.setup()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "Login datdriven",
+        "description": "",
+        "id": "login;login-datdriven;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3016000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Open the beowser",
+            "match": {
+              "location": "Step.user_Open_the_beowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 13229438500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter Url \"http://demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.guru99.com/V4/",
+                  "offset": 16
+                }
+              ],
+              "location": "Step.user_enter_Url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1173749100,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter user name \"mngr264380\" and password \"qUrUzEv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr264380",
+                  "offset": 17
+                },
+                {
+                  "val": "qUrUzEv",
+                  "offset": 43
+                }
+              ],
+              "location": "Step.enter_user_name_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 932486000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click login button",
+            "match": {
+              "location": "Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 40721900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate  Tilte of the page \"Guru99 Bank Manager HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guru99 Bank Manager HomePage",
+                  "offset": 29
+                }
+              ],
+              "location": "Step.validate_Tilte_of_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1044338300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "Step.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3359233800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step.setup()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "Login datdriven",
+        "description": "",
+        "id": "login;login-datdriven;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4006200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Open the beowser",
+            "match": {
+              "location": "Step.user_Open_the_beowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1623717400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter Url \"http://demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.guru99.com/V4/",
+                  "offset": 16
+                }
+              ],
+              "location": "Step.user_enter_Url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2895216200,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter user name \"mngr264380\" and password \"qUrUzEv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr264380",
+                  "offset": 17
+                },
+                {
+                  "val": "qUrUzEv",
+                  "offset": 43
+                }
+              ],
+              "location": "Step.enter_user_name_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 708316400,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click login button",
+            "match": {
+              "location": "Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5479400,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate  Tilte of the page \"Guru99 Bank Manager HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guru99 Bank Manager HomePage",
+                  "offset": 29
+                }
+              ],
+              "location": "Step.validate_Tilte_of_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 729507000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "Step.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegressionTest"
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 3346148300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Step.setup()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Login datdriven",
+        "description": "",
+        "id": "login;login-datdriven;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5307300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User Open the beowser",
+            "match": {
+              "location": "Step.user_Open_the_beowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2353779600,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "user enter Url \"http://demo.guru99.com/V4/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "http://demo.guru99.com/V4/",
+                  "offset": 16
+                }
+              ],
+              "location": "Step.user_enter_Url(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1277007600,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "enter user name \"mngr264380\" and password \"qUrUzEv\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "mngr264380",
+                  "offset": 17
+                },
+                {
+                  "val": "qUrUzEv",
+                  "offset": 43
+                }
+              ],
+              "location": "Step.enter_user_name_and_password(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3057780700,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Click login button",
+            "match": {
+              "location": "Step.click_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 48693800,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "validate  Tilte of the page \"Guru99 Bank Manager HomePage\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Guru99 Bank Manager HomePage",
+                  "offset": 29
+                }
+              ],
+              "location": "Step.validate_Tilte_of_the_page(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1149373400,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "close browser",
+            "match": {
+              "location": "Step.close_browser()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "line": 11,
+            "name": "@RegressionTest"
+          }
+        ]
+      }
+    ],
+    "name": "Login",
+    "description": "",
+    "id": "login",
+    "keyword": "Feature",
+    "uri": "./Feature/Login.feature"
+  }
+]

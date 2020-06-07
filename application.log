@@ -1,0 +1,5 @@
+2020-06-07 04:39:04,449  INFO [main] BDDFramework:48 - ******************Browser opened************
+2020-06-07 04:39:04,452  INFO [main] BDDFramework:54 - ******************url entered************
+2020-06-07 04:39:06,808  INFO [main] BDDFramework:61 - ******************customer credential entered************
+2020-06-07 04:39:08,086  INFO [main] BDDFramework:69 - ******************login the page************
+2020-06-07 04:39:11,194  INFO [main] BDDFramework:76 - ******************Title validate passed************

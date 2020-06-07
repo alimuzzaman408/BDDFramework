@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="4" time="54.187592">
+<testcase classname="Login" name="User credential successfull" time="13.820281">
+<system-out><![CDATA[Given User Open the beowser.................................................passed
+When user enter Url "http://demo.guru99.com/V4/"............................passed
+And enter user name "mngr264380" and password "qUrUzEv".....................passed
+And Click login button......................................................passed
+Then validate  Tilte of the page "Guru99 Bank Manager HomePage".............passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login datdriven" time="19.803744">
+<system-out><![CDATA[Given User Open the beowser.................................................passed
+When user enter Url "http://demo.guru99.com/V4/"............................passed
+And enter user name "mngr264380" and password "qUrUzEv".....................passed
+And Click login button......................................................passed
+Then validate  Tilte of the page "Guru99 Bank Manager HomePage".............passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login datdriven 2" time="9.325476">
+<system-out><![CDATA[Given User Open the beowser.................................................passed
+When user enter Url "http://demo.guru99.com/V4/"............................passed
+And enter user name "mngr264380" and password "qUrUzEv".....................passed
+And Click login button......................................................passed
+Then validate  Tilte of the page "Guru99 Bank Manager HomePage".............passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login datdriven 3" time="11.238091">
+<system-out><![CDATA[Given User Open the beowser.................................................passed
+When user enter Url "http://demo.guru99.com/V4/"............................passed
+And enter user name "mngr264380" and password "qUrUzEv".....................passed
+And Click login button......................................................passed
+Then validate  Tilte of the page "Guru99 Bank Manager HomePage".............passed
+And close browser...........................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

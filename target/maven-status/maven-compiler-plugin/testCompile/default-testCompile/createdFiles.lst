@@ -1,0 +1,6 @@
+com\BDDFramework\page\LoginPage.class
+com\BDDFramework\step\Step.class
+com\BDDFramework\page\Addcustomer.class
+com\BDDFramework\step\Base.class
+com\BDDFramework\util\WaitHelper.class
+runner\TestRunner.class
